@@ -2,7 +2,9 @@
 // import { UseEffect } from "@/@/@/UseEffect";
 // import { UseMemo } from "@/@/@/UseMemo";
 // import { UseCallback } from "@/@/@/UseCallback";
-import { UseRef } from "@/@/@/UseRef";
+// import { UseRef } from "@/@/@/UseRef";
+import { UseReducer } from "@/@/@/UseReducer";
+
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
     {/* <UseEffect /> */}
     {/* <UseMemo /> */}
     {/* <UseCallback /> */}
-    <UseRef />
+    {/* <UseRef /> */}
+    <UseReducer />
   </div>
   );
 }
