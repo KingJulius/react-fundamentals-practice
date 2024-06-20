@@ -4,7 +4,8 @@
 // import { UseCallback } from "@/@/@/UseCallback";
 // import { UseRef } from "@/@/@/UseRef";
 // import { UseReducer } from "@/@/@/UseReducer";
-import { UseLayoutEffect } from "@/@/@/UseLayoutEffect";
+// import { UseLayoutEffect } from "@/@/@/UseLayoutEffect";
+import { UseImperativeHandle } from "@/@/@/UseImperativeHandle";
 
 
 export default function Home() {
@@ -16,7 +17,8 @@ export default function Home() {
     {/* <UseCallback /> */}
     {/* <UseRef /> */}
     {/* <UseReducer /> */}
-    <UseLayoutEffect />
+    {/* <UseLayoutEffect /> */}
+    <UseImperativeHandle />
   </div>
   );
 }
