@@ -3,7 +3,8 @@
 // import { UseMemo } from "@/@/@/UseMemo";
 // import { UseCallback } from "@/@/@/UseCallback";
 // import { UseRef } from "@/@/@/UseRef";
-import { UseReducer } from "@/@/@/UseReducer";
+// import { UseReducer } from "@/@/@/UseReducer";
+import { UseLayoutEffect } from "@/@/@/UseLayoutEffect";
 
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
     {/* <UseMemo /> */}
     {/* <UseCallback /> */}
     {/* <UseRef /> */}
-    <UseReducer />
+    {/* <UseReducer /> */}
+    <UseLayoutEffect />
   </div>
   );
 }
