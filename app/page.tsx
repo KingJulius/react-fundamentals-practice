@@ -5,20 +5,21 @@
 // import { UseRef } from "@/@/@/UseRef";
 // import { UseReducer } from "@/@/@/UseReducer";
 // import { UseLayoutEffect } from "@/@/@/UseLayoutEffect";
-import { UseImperativeHandle } from "@/@/@/UseImperativeHandle";
-
+// import { UseImperativeHandle } from "@/@/@/UseImperativeHandle";
+import { UseContext } from "@/@/@/useContext";
 
 export default function Home() {
   return (
-  <div>
-    {/* <UseState /> */}
-    {/* <UseEffect /> */}
-    {/* <UseMemo /> */}
-    {/* <UseCallback /> */}
-    {/* <UseRef /> */}
-    {/* <UseReducer /> */}
-    {/* <UseLayoutEffect /> */}
-    <UseImperativeHandle />
-  </div>
+    <div>
+      {/* <UseState /> */}
+      {/* <UseEffect /> */}
+      {/* <UseMemo /> */}
+      {/* <UseCallback /> */}
+      {/* <UseRef /> */}
+      {/* <UseReducer /> */}
+      {/* <UseLayoutEffect /> */}
+      {/* <UseImperativeHandle /> */}
+      <UseContext />
+    </div>
   );
 }
